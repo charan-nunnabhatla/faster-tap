@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:faster_tap/fastertappage.dart';
+import 'package:faster_tap/variables.dart';
 
 void main(List<String> args) {
   runApp(FasterTap());
