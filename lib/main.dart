@@ -13,6 +13,8 @@ class FasterTap extends StatelessWidget{
   @override
   Widget build(BuildContext context){
     return MaterialApp(
+      theme: ThemeData(
+          colorSchemeSeed: Color.fromARGB(255, 205, 141, 211), useMaterial3: true),
       debugShowCheckedModeBanner: false,
       home: FasterTapState(),
     );
